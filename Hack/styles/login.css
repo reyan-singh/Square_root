@@ -1,25 +1,25 @@
 :root {
-  --bg-color: #f5f5f5;
-  --bg-round-a: #4aa1b0;
-  --bg-round-b: #4aa1b0;
+  --bg-color:  #27293c;
+  --bg-round-a:#cd52e2;
+  --bg-round-b:#4aa1b0;
   --panel-color: #fff;
-  --title:#4aa1b0;
-  --bg-input: #e0e0e0;
+  --title:#fff;
+  --bg-input: #ffffff;
   --input-icon: #8a8a8a;
   --input: #333;
   --input-hover: #222;
-  --btn-color: #4aa1b0;
-  --btn-text: #fff;
-  --btn-hover: #4aa1b0;
+  --btn-color:#cd52e2;
+  --btn-text: #27293c;
+  --btn-hover:#cd52e2;
   --social-text: #444;
-  --social-icon: #4aa1b0;
+  --social-icon:#cd52e2;
   --icon-color: #333;
   --check-text: #333;
   --check-hover: #333;
-  --check-link: #4aa1b0;
+  --check-link:#cd52e2;
   --pass-color: #444;
   --key-color: #777;
-  --pass-hover-color: #4aa1b0;
+  --pass-hover-color:#cd52e2;
   --keyboard-color: #ffffff;
   --key-letter: #333;
 }
