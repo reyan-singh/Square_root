@@ -8,7 +8,6 @@ sign_up_btn.addEventListener("click", () => {
 
 sign_in_btn.addEventListener("click", () => {
   container.classList.remove("sign-up-mode");
-  alert('hi');
 });
 function loginin() {
   // var uid = document.getElementById("usuario").value;
