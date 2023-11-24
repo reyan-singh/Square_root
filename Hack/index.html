@@ -30,7 +30,7 @@
                 name="usuario"
                 autocomplete="username"
                 placeholder="Username"
-                required="yes"
+                required="no"
               />
             </div>
             <div class="input-field">
@@ -41,7 +41,7 @@
                 autocomplete="current-password"
                 placeholder="Password"
                 id="id_password"
-                required="yes"
+                required="no"
               />
               <i
                 class="far fa-eye"
@@ -50,7 +50,7 @@
               ></i>
             </div>
 
-            <input type="submit" value="Sign in" class="btn solid" />
+            <input type="submit" value="Sign in" onclick="return loginin();" class="btn solid" />
 
             <div class="social-media">
               <a class="icon-mode" onclick="toggleTheme('dark');"
@@ -71,17 +71,17 @@
                 name="usuario"
                 autocomplete="username"
                 placeholder="Username"
-                required="yes"
+                required="no"
               />
             </div>
             <div class="input-field">
               <i class="fas fa-envelope"></i>
               <input
-                type="email"
+                type="text"
                 name="correo"
                 autocomplete="email"
                 placeholder="Email"
-                required="yes"
+                required="no"
               />
             </div>
             <div class="input-field">
@@ -103,7 +103,7 @@
                 >I accept the <a href="terms.html">terms and services</a></span
               >
             </label>
-            <input type="submit" value="Create account" class="btn solid" />
+            <input type="submit" value="Create account"  class="btn solid" />
           </form>
         </div>
       </div>
