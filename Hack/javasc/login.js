@@ -8,8 +8,16 @@ sign_up_btn.addEventListener("click", () => {
 
 sign_in_btn.addEventListener("click", () => {
   container.classList.remove("sign-up-mode");
+  alert('hi');
 });
-
+function loginin() {
+  // var uid = document.getElementById("usuario").value;
+  // var pid = document.getElementById("contraseña").value;
+  // alert(uid);
+  // alert(pid);
+  window.location.href = '/serveradition/serveradd.html';
+  return true;
+}
 const htmlEl = document.getElementsByTagName("html")[0];
 const currentTheme = localStorage.getItem("theme")
   ? localStorage.getItem("theme")
